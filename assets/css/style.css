@@ -841,47 +841,48 @@ section {
 }
 
 /*--------------------------------------------------------------
-# Services
+# beneficios
 --------------------------------------------------------------*/
-.services .icon-box {
+.beneficios .icon-box {
   box-shadow: 0px 0 25px 0 rgba(0, 0, 0, 0.1);
   padding: 50px 30px;
   transition: all ease-in-out 0.4s;
   background: #fff;
+  width: 300px;
 }
 
-.services .icon-box .icon {
+.beneficios .icon-box .icon {
   margin-bottom: 10px;
 }
 
-.services .icon-box .icon i {
+.beneficios .icon-box .icon i {
   color: #47b2e4;
   font-size: 36px;
   transition: 0.3s;
 }
 
-.services .icon-box h4 {
+.beneficios .icon-box h4 {
   font-weight: 500;
   margin-bottom: 15px;
   font-size: 24px;
 }
 
-.services .icon-box h4 a {
+.beneficios .icon-box h4 a {
   color: #37517e;
   transition: ease-in-out 0.3s;
 }
 
-.services .icon-box p {
+.beneficios .icon-box p {
   line-height: 24px;
   font-size: 14px;
   margin-bottom: 0;
 }
 
-.services .icon-box:hover {
+.beneficios .icon-box:hover {
   transform: translateY(-10px);
 }
 
-.services .icon-box:hover h4 a {
+.beneficios .icon-box:hover h4 a {
   color: #47b2e4;
 }
 
@@ -1194,13 +1195,13 @@ section {
 }
 
 /*--------------------------------------------------------------
-# Pricing
+# proceso
 --------------------------------------------------------------*/
-.pricing .row {
+.proceso .row {
   padding-top: 40px;
 }
 
-.pricing .box {
+.proceso .box {
   padding: 60px 40px;
   box-shadow: 0 3px 20px -2px rgba(20, 45, 100, 0.1);
   background: #fff;
@@ -1209,14 +1210,14 @@ section {
   border-radius: 5px;
 }
 
-.pricing h3 {
+.proceso h3 {
   font-weight: 500;
   margin-bottom: 15px;
   font-size: 20px;
   color: #37517e;
 }
 
-.pricing h4 {
+.proceso h4 {
   font-size: 48px;
   color: #37517e;
   font-weight: 400;
@@ -1224,17 +1225,17 @@ section {
   margin-bottom: 25px;
 }
 
-.pricing h4 sup {
+.proceso h4 sup {
   font-size: 28px;
 }
 
-.pricing h4 span {
+.proceso h4 span {
   color: #47b2e4;
   font-size: 18px;
   display: block;
 }
 
-.pricing ul {
+.proceso ul {
   padding: 20px 0;
   list-style: none;
   color: #999;
@@ -1242,12 +1243,12 @@ section {
   line-height: 20px;
 }
 
-.pricing ul li {
+.proceso ul li {
   padding: 10px 0 10px 30px;
   position: relative;
 }
 
-.pricing ul i {
+.proceso ul i {
   color: #28a745;
   font-size: 24px;
   position: absolute;
@@ -1255,19 +1256,19 @@ section {
   top: 6px;
 }
 
-.pricing ul .na {
+.proceso ul .na {
   color: #ccc;
 }
 
-.pricing ul .na i {
+.proceso ul .na i {
   color: #ccc;
 }
 
-.pricing ul .na span {
+.proceso ul .na span {
   text-decoration: line-through;
 }
 
-.pricing .buy-btn {
+.proceso .buy-btn {
   display: inline-block;
   padding: 12px 35px;
   border-radius: 50px;
@@ -1280,40 +1281,40 @@ section {
   border: 1px solid #47b2e4;
 }
 
-.pricing .buy-btn:hover {
+.proceso .buy-btn:hover {
   background: #47b2e4;
   color: #fff;
 }
 
-.pricing .featured {
+.proceso .featured {
   border-top-color: #47b2e4;
 }
 
-.pricing .featured .buy-btn {
+.proceso .featured .buy-btn {
   background: #47b2e4;
   color: #fff;
 }
 
-.pricing .featured .buy-btn:hover {
+.proceso .featured .buy-btn:hover {
   background: #23a3df;
 }
 
 @media (max-width: 992px) {
-  .pricing .box {
+  .proceso .box {
     max-width: 60%;
     margin: 0 auto 30px auto;
   }
 }
 
 @media (max-width: 767px) {
-  .pricing .box {
+  .proceso .box {
     max-width: 80%;
     margin: 0 auto 30px auto;
   }
 }
 
 @media (max-width: 420px) {
-  .pricing .box {
+  .proceso .box {
     max-width: 100%;
     margin: 0 auto 30px auto;
   }
@@ -1395,6 +1396,7 @@ section {
 .faq .faq-list a.collapsed .icon-close {
   display: none;
 }
+
 
 @media (max-width: 1200px) {
   .faq .faq-list {
